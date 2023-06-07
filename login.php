@@ -78,7 +78,11 @@
                     alert("User Name and Password fields are empty");  
                     return false;  
                 }  
-                else  
+                e if (ps.length=="") {
+                    alert("Password field is empty");
+                    return false;
+                    }
+lse  
                 {  
                     if(id.length=="") {  
                         alert("User Name is empty");  
